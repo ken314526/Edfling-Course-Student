@@ -73,7 +73,7 @@
   line-height: 38.52px; /* 250% */
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 1024px) {
   .Certificatefont {
     font-size: 6vw;
     line-height: 1.2;
