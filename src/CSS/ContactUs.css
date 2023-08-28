@@ -66,6 +66,6 @@
 @media (max-width: 767px) {
   .info {
     display: none;
-    visibility: hidden;
+    width: 0;
   }
 }

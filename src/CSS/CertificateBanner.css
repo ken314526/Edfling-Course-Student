@@ -73,7 +73,7 @@
   line-height: 38.52px; /* 250% */
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 810px) {
   .Certificatefont {
     font-size: 6vw;
     line-height: 1.2;
@@ -122,6 +122,10 @@
     font-size: 4vw;
     line-height: 2.5;
   }
+
+  .certificateImage {
+    display: none;
+  }
 }
 
 /* Tablet landscape and larger screens */
@@ -152,6 +156,7 @@
 
   .courseContainer {
     padding: 20px;
+    width: 100%;
   }
 
   .courseSubFont {
@@ -198,6 +203,7 @@
 
   .courseContainer {
     padding: 30px;
+    width: 100%;
   }
 
   .courseSubFont {

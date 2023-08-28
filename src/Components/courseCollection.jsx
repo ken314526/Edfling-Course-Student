@@ -5,12 +5,11 @@ import "../CSS/CertificateBanner.css";
 
 function courseCollection() {
   return (
-    <div className="courseContainer md:inline-flex flex-col items-center gap-[30px]">
-      <div className="flex flex-col items-start gap-[12px] md:ml-[35px]">
-        {/* Image with headline */}
+    <div className="md:inline-flex flex-col items-center gap-[30px]">
+      <div className="flex flex-col items-start gap-[12px] md:ml-[35px] mt-[10px]">
         <div className="flex mt-[10px]">
           <img src={trophy} width={35} height={35}></img>
-          <span className="Coursefont ml-[13px]">Course name</span>
+          <span className="Coursefont md:ml-[13px]">Course name</span>
         </div>
 
         <div className=" courseContainer flex w-full md:w-[1178px]  items-start py-[23px] px-[26px]  ">
@@ -21,7 +20,10 @@ function courseCollection() {
               </span>
               <span className="courseDate">Completed on 21 may 2022</span>
             </div>
-            <img className="hidden md:block" src={courseAction}></img>
+            <img
+              className="certificateImage hidden md:block"
+              src={courseAction}
+            ></img>
           </div>
         </div>
       </div>

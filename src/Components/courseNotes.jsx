@@ -58,7 +58,7 @@ function CourseNotes() {
 
   return (
     <>
-      <div className="w-[438px] banner md:w-[1042px] h-[202px] box-border ml-0 md:ml-[35px] gradient relative ">
+      <div className="w-[100%] banner md:w-[1042px] h-[202px] box-border ml-0 md:ml-[35px] gradient relative ">
         <span className="eventFont mt-[48px] ml-[44px] absolute">
           Course Notes
         </span>
@@ -69,7 +69,7 @@ function CourseNotes() {
           src={undrawSchedule}
           width={156}
           height={188}
-          className="hidden md:block absolute mt-[50px] ml-[867px] mr-[87px]"
+          className="image hidden md:block absolute mt-[50px] ml-[80%] mr-[87px]"
         ></img>
       </div>
 

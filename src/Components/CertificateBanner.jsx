@@ -10,7 +10,7 @@ function CertificateBanner() {
   return (
     <>
       {/* Certificate Banner */}
-      <div className="w-[full] h-[239px] box-border md:ml-[25px] gradient relative ">
+      <div className="CertifacteHeader h-[239px] box-border md:ml-[25px] gradient relative ">
         <span className="Certificatefont mt-[68px] ml-[34px] md:ml-[44px] absolute">
           Certificate
         </span>
@@ -64,7 +64,10 @@ function CertificateBanner() {
                 </span>
                 <span className="courseDate">Completed on 21 may 2022</span>
               </div>
-              <img className="hidden md:block" src={courseAction}></img>
+              <img
+                className="certificateImage hidden md:block"
+                src={courseAction}
+              ></img>
             </div>
           </div>
         </div>
